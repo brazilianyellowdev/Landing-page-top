@@ -114,7 +114,6 @@ html {
 .introduction {
     padding: 20px;
     align-items: center;
-    justify-content: center;
     display: flex;
     background-color: var(--dark-brown);
 }
@@ -148,6 +147,70 @@ html {
 }
 
 /* INTRODUCTION RIGHT  */
-.introduction-right {
-    
+.introduction-right-img {
+    width: 250px;
+    height: auto;
+}
+
+/* INFORMATION */
+.information-h2 {
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    font-weight: 500;
+    font-size: 36px;
+    text-align: center;
+    justify-content: center;
+}
+
+.information-box {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.information-box-img {
+    margin-left: 20px;
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.information-box-p {
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+
+/* QUOTE  */
+.quote {
+    color: var(--white-pink);
+    background-color: var(--light-brown);
+    padding: 200px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quote-h1 {
+    font-size: 52px;
+}
+
+figcaption {
+    color: black;
+    font-weight: bold;
+}
+
+/* CTA  */
+.cta {
+    padding: 200px;
+    background-color: var(--dark-green);
+    display: flex;
+}
+
+.cta-box {
+    display: flex;
+}
+
+.cat-text {
+    font-size: 21px;
 }
