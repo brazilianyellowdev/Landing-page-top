@@ -116,10 +116,12 @@ html {
 }
 /* INTRODUCTION  */
 .introduction {
-    padding: 20px;
-    align-items: center;
-    display: flex;
+    padding-top: 20px;
     background-color: var(--dark-brown);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;    
 }
 
 /* INTRODUCTION LEFT  */
