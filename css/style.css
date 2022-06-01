@@ -110,6 +110,10 @@ html {
     padding: 20px;
 }
 
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
 /* INTRODUCTION  */
 .introduction {
     padding: 20px;
@@ -127,9 +131,10 @@ html {
 }
 
 .introduction-h1 {
+    color: #f9faf8;
     line-height: 2.5rem;
-    font-weight: 900;
-    font-size: 42px;
+    font-weight: 800;
+    font-size: 48px;
     padding-bottom: 10px;
 }
 
@@ -138,12 +143,11 @@ html {
   border-radius: 7px;
   color: white;
   padding: 15px 12px;
-  margin: 75px;
+  margin: 150px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
-
 }
 
 /* INTRODUCTION RIGHT  */
@@ -213,4 +217,12 @@ figcaption {
 
 .cat-text {
     font-size: 21px;
+}
+
+/* FOOTER */
+.footer {
+
+    font-size: 18px;
+    color: #e5e7eb;
+    background-color: #1f2937;
 }
